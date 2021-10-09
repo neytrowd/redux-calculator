@@ -1,0 +1,46 @@
+.NumberPad {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.NumberPad button {
+    flex-basis: 23%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px;
+    background: #343941;
+    transition: 0.2s all linear;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.NumberPad button:hover{
+    color: yellow;
+    background: #212629;
+}
+
+.NumberPad .Number {
+    border: 2px solid green;
+}
+
+.NumberPad .Action {
+    border: 2px solid dodgerblue;
+}
+
+.NumberPad .Calc {
+    border: 2px solid dodgerblue;
+    background: dodgerblue;
+}
+
+.NumberPad .Calc:hover {
+    background: dodgerblue;
+}
+
+.NumberPad .Reset {
+    flex-basis: 100%;
+    border: 2px solid yellow;
+    color: red;
+}
